@@ -2,6 +2,9 @@
 
 Live turntable viewer: https://oscarbrendonn.github.io/bull-figure/
 
-Preview asset only. The file in this repository is an intentionally reduced showcase copy (150k triangles, 1K watermarked texture). The full-resolution master is private.
+3D model, GLB format.
 
-Artwork by @oscarbrencyrpto. All rights reserved.
+- `bull-figure.glb` -- original full-resolution file (54 MB, 1.87M triangles, 4K texture)
+- `bull-figure-web.glb` -- DRACO-compressed copy for the web viewer (identical geometry and texture)
+
+Artwork by @oscarbrencyrpto.
