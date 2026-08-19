@@ -1,6 +1,6 @@
 # Ansem Black Bull
 
-Live turntable viewer: https://oscarbrendonn.github.io/bull-figure/
+Live turntable viewer: https://oscarbrendonn.github.io/ansem-and-black-bull/
 
 3D model, GLB format.
 
