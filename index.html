@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ansem Black Bull</title>
+<script type="module" src="https://unpkg.com/@google/model-viewer@3.5.0/dist/model-viewer.min.js"></script>
+<style>
+  html,body{margin:0;height:100%;background:#111114;color:#e8e8ec;font-family:-apple-system,system-ui,sans-serif}
+  model-viewer{width:100%;height:100%;--poster-color:#111114}
+  .hud{position:fixed;top:16px;left:20px;letter-spacing:.14em;font-size:13px;opacity:.75;text-transform:uppercase}
+  .sig{position:fixed;right:20px;bottom:14px;text-align:right;opacity:.72}
+  .sig .by{font-size:10px;letter-spacing:.18em;text-transform:uppercase;opacity:.6}
+  .sig .name{font-family:Georgia,'Times New Roman',serif;font-style:italic;font-size:16px;letter-spacing:.02em}
+</style>
+</head>
+<body>
+<model-viewer src="bull-preview.glb"
+  camera-controls auto-rotate rotation-per-second="18deg"
+  shadow-intensity="0.8" exposure="1.05"
+  camera-orbit="0deg 85deg 1.95m" min-camera-orbit="auto auto 0.4m" max-camera-orbit="auto auto 4m"
+  interaction-prompt="none" touch-action="pan-y">
+</model-viewer>
+<div class="hud">Ansem Black Bull</div>
+<div class="sig"><div class="by">Artwork by</div><div class="name">@oscarbrencyrpto</div></div>
+</body>
+</html>
